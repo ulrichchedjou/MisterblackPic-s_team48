@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+     
+}
+
+/*  starts Ajouts RM*/
+.home_footer{
+    position: sticky;
+    bottom: 0;right: 0; left: 0;
+    margin-top: 120px;
+}
+
+#home{
+   
+    position: relative;
+    top: 120px;
+    height: calc(100% - 227.5px)
+}
+.body{
+    height: 100vh;
+    background-color: #000;
+}
+.main-banner{
+    
+	position: relative;
+}
+
+.heading{
+	
+	
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+
+    width: 100%;
+    height: 100%
+ 
+  
+}
+.background{
+    height: 100%;
+    
+}
+.textos{
+    position: absolute;
+    background-color: rgb(31, 32, 57, 0.5);
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titre{
+   margin:auto
+}
+/*Modélisation du caroussel*/
+
+/* .card .img{
+    background-color: #1163ce;
+    width: 125px;
+    height: 125px;
+    
+  }  */
+  .card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+ 
+    
+  }
+ 
+  .card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    align-items: center;
+    gap: 0;
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    
+  }
+  .carousel{
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  .wrapper{
+   
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  .carousel :where(.card, .img){
+    display: flex;
+     flex-direction: row; 
+    
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .btn_contact{
+    display: flex;
+    width: 30%;  
+   
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ 
+/*  ends Ajouts RM*/
+
+#latest{
+ 
+   
+}
+
+
+
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin-bottom: 5px;
+}
+
+.navigation ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #000;
+}
+
+.follow {
+    text-align: center;
+}
+
+/* Exemple de style pour les icônes de réseaux sociaux */
+.follow .social-icon {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.follow .social-icon:hover {
+    color: #000;
+}
+body{
+    background-color: aliceblue!;
+}
+.slider{
+    width: 100%;
+    height: 110vh;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+
+
+.active{
+    opacity: 1!important;
+}
+
+.btn_contact h2{
+   
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+
+#contact_link{
+    margin-bottom: 10%;
+}
+
+.acceuil {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acceuil p{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.acceuil span{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  
+
+
+
+footer{
+    background-color: #000;
+}
+
+  
+ 
+
+.heading h1{
+	color:#ffffff;
+	font-weight: 700;
+	font-size: 4em;
+	text-transform: uppercase;
+   
+}
+.heading p{
+	font-size: 1.2em;
+    
+	padding: 20px 0px;
+    font-weight: 100;
+    width: 50%;
+    margin: auto;
+}
+
+.heading h3{
+	color: #ffffff;
+}
+
+.last{
+    margin-bottom: 100px;
+}
+
+.contact_footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+@media (max-width: 1370px) {
+    .contact_footer{
+       
+        position:relative;      
+    }
+    .heading h1{
+        font-size: 3em; ;
+    }
+    .heading p{
+        width: 80%;
+        font-size: 1.5em;
+    }
+    .heading h2{
+        font-size: 1.5em;
+    }
+   
+   
+  }
+ @media (max-width: 889px) {
+
+    .main-banner{
+        background-size: cover;
+        background-position: center;
+    }
+  }
+
+
+
+
+

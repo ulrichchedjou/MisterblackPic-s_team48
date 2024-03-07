@@ -1,0 +1,38 @@
+.bi bi-chevron-right{
+    color: rgb(189, 174, 37);
+}
+.col-md-12{
+    width: 78%;
+    margin: auto;
+}
+.progress-bar{
+    background: rgb(189, 174, 37);
+   color: black;
+   font-weight: 1000;
+}
+.img-fluid{
+height: 100%;
+object-fit: cover;
+}
+.info{
+    width: 100%;
+   
+}
+.info ul{
+    width: 100%;
+   
+}
+
+@media (max-width: 1400px) {
+ 
+ .col-lg-4 img{
+    height: 100%;
+    object-fit: cover;
+ }
+}
+@media (max-width: 991px) {
+    .col-md-12{
+       
+        width: 100%;
+    }
+}

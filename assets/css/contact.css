@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+
+
+#header{
+    box-shadow: 1px 2px 3px #585757;
+    
+}
+body{
+    position: relative;
+}
+
+.titre h2{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-size: 3.5rem;
+}
+
+.titre p{
+    color: white;
+    margin: 3rem 0;
+}
+.contact .php-email-form{
+    margin: 5rem 0;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea{
+    background-color: transparent;
+    border: .2px solid ;
+}
+
+.contact .php-email-form input::placeholder{
+    color: rgb(165, 157, 157);
+}
+
+.contact .php-email-form textarea::placeholder{
+    color: rgb(165, 157, 157);
+}
+
+
+.contact .php-email-form button{
+    margin: 5rem 0 10rem;
+}
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 1px 2px 3px #585757;
+    
+}
